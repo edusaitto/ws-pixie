@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>  
+    <script type="text/javascript" src="./scripts.js"></script>
+    <link rel="stylesheet" href="./styles.css">  
+    <title>Eduardo Saito</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-nav fixed-top px-4">
+                    <a href="#first-section" class="navbar-brand text-white" style="font-size: 24px">Eduardo <b>Saito</b></a>
+                    <button
+                        class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold text-white rounded border-0"
+                        type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                
+                <div class="collapse navbar-collapse justify-content-end " id="navbarResponsive">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link rounded js-scroll-trigger text-white"
+                                href="#second-section">sobre</a></li>
+                        <li class="nav-item"><a class="nav-link rounded js-scroll-trigger text-white"
+                                href="#third-section">habilidades</a></li>
+                    </ul>
+                </div>    
+        </nav>
+    </header>
+
+    <div id="first-section" class="row justify-content-md-center py-5 m-0 ">
+        <div class="col-lg-6 d-flex align-items-center justify-content-center py-3">
+            <img id="my-photo" class="rounded-circle border border-5 border-red" src="./assets/my-photo.png"/>
+        </div>
+        <div class="col-lg-6 col-md-8 d-flex align-items-center justify-content-center">
+            
+            <div id="card-principal" class="card-home bg-black p-4">
+                <div class="d-flex">
+                    <div class="col">
+                        <p class="text-red m-0 p-0">hello world</p>
+                        <p class="text-white m-0 p-0">eu me chamo</p>
+                    </div>
+                    <div class="col d-flex align-items-center justify-content-end">
+                        <button
+                        onclick="cardTurn()" 
+                        class="py-2 px-3 rounded-pill"
+                        >
+                        contato
+                        </button>
+                    </div>
+                </div>
+                <div>
+                    <h2 class="text-white">Eduardo</h2>
+                    <h1 class="text-white"><b>Saito</b></h1>
+                </div>
+                <p class="text-red text-center text-sm-start m-0 pt-1 border-2 border-red border-top">QA Analyst & Front End Developer</p>
+            </div>
+            
+            <div id="card-contato" class="card-home bg-black p-4">
+                <div class="d-flex">
+                    <div class="d-flex align-items-center justify-content-center">
+                        <button
+                        onclick="cardTurn()" 
+                        class="py-2 px-4 rounded-pill bg-red text-white border border-2 border-white"
+                        >
+                        voltar
+                        </button>
+                    </div>
+                </div>
+                <div class="mt-2">
+                    <h2 class="text-white border-2 border-bottom border-red pb-1 mb-2">Contato</h2>
+                    <div class="card-button linkedin-tile d-flex align-items-center justify-content-start px-4 p-2">
+                        <img src="./assets/linkedin.png"/>
+                        <p class="text-white px-2 my-auto">Eduardo Saito</p>
+                    </div>
+                    <div class="d-flex insta-tile align-items-center justify-content-start card-button px-4 p-2 mt-2">
+                        <img src="./assets/instagram.png"/>
+                        <p class="text-white px-2 my-auto">@edu_saito</p>
+                    </div>
+                    <div class="d-flex git-tile align-items-center justify-content-start card-button px-4 p-2 mt-2">
+                        <img src="./assets/github.svg"/>
+                        <p class="text-white px-2 my-auto">edusaitto</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="second-section" class="row bg-black py-3 pb-5 m-0">
+        <h1 class="text-red text-center text-sm-start px-4">sobre mim</h1>
+        <div class="col-12">
+            <div class="row bg-red p-5 border-bottom border-4 border-black">
+                <div class="col-lg-4 col-md-6 d-flex justify-content-center align-items-center">
+                    <img src="./assets/pc.png"/>
+                </div>
+                <div class="col-lg-7 col-md-6">
+                    <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in leo augue. Suspendisse pellentesque nisl eget nibh efficitur, non consectetur massa semper. Integer rutrum nisl in porttitor mollis. Vestibulum vel nisl lectus. Nulla sagittis dolor ut quam consequat, et scelerisque risus ultricies. Sed eget ultrices velit, vel pellentesque sem. Curabitur eget ipsum venenatis, dignissim metus quis, tristique eros. Fusce placerat consectetur nibh, a sodales ex consectetur vehicula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in leo augue. Suspendisse pellentesque nisl eget nibh efficitur, non consectetur massa semper. Integer rutrum nisl in porttitor mollis. Vestibulum vel nisl lectus. Nulla sagittis dolor ut quam consequat, et scelerisque risus ultricies. Sed eget ultrices velit, vel pellentesque sem. Curabitur eget ipsum venenatis, dignissim metus quis, tristique eros. Fusce placerat consectetur nibh, a sodales ex consectetur vehicula.</p>
+                </div>
+            </div>
+            <div id="about-2" class="row bg-red p-5">
+                <div class="col-lg-8 col-md-6 text-right">
+                    <p class="text-white text-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in leo augue. Suspendisse pellentesque nisl eget nibh efficitur, non consectetur massa semper. Integer rutrum nisl in porttitor mollis. Vestibulum vel nisl lectus. Nulla sagittis dolor ut quam consequat, et scelerisque risus ultricies. Sed eget ultrices velit, vel pellentesque sem. Curabitur eget ipsum venenatis, dignissim metus quis, tristique eros. Fusce placerat consectetur nibh, a sodales ex consectetur vehicula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in leo augue. Suspendisse pellentesque nisl eget nibh efficitur, non consectetur massa semper. Integer rutrum nisl in porttitor mollis. Vestibulum vel nisl lectus. Nulla sagittis dolor ut quam consequat, et scelerisque risus ultricies. Sed eget ultrices velit, vel pellentesque sem. Curabitur eget ipsum venenatis, dignissim metus quis, tristique eros. Fusce placerat consectetur nibh, a sodales ex consectetur vehicula.</p>
+                </div>
+                <div class="col-lg-4 col-md-6 d-flex justify-content-center align-items-center">
+                    <img src="./assets/game.png"/>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div id="third-section" class="row py-3 pb-5 m-0">
+        <h1 class="text-black text-center text-sm-start px-4">habilidades</h1>
+        <div class="col-12">
+            <div class="row justify-content-center px-5 mt-4">
+                <div class="card p-0 border border-2 border-white bg-gray col-lg-3 m-3">
+                    <div class="card-body p-0">
+                        <h4 class="card-title p-3 bg-white">techs</h4>
+                        <p class="card-text p-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in leo augue. Suspendisse pellentesque nisl eget nibh efficitur, non consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in leo augue. Suspendisse pellentesque nisl eget nibh efficitur.</p>
+                    </div>
+                </div>
+                <div class="card border p-0 border-2 border-red bg-gray col-lg-3 m-3">
+                    <div class="card-body p-0">
+                        <h4 class="p-3 text-white bg-red">soft skills</h4>
+                        <p class="card-text p-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in leo augue. Suspendisse pellentesque nisl eget nibh efficitur, non consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in leo augue. Suspendisse pellentesque nisl eget nibh efficitur.</p>
+                    </div>
+                </div>
+                <div class="card border p-0 border-2 border-black bg-gray col-lg-3 m-3">
+                    <div class="card-body p-0">
+                        <h4 class="card-title p-3 text-white bg-black">projetos</h4>
+                        <p class="card-text p-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in leo augue. Suspendisse pellentesque nisl eget nibh efficitur, non consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in leo augue. Suspendisse pellentesque nisl eget nibh efficitur.</p>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+</html>
